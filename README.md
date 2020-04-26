@@ -1,6 +1,7 @@
 ## Assignment Frontend 
 
 
+This Repo contains Frontend code for Assignment Given BY Handaji Tech Solutions Private Limited
 
 
 
