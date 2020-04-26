@@ -1,31 +1,28 @@
 import React from 'react';
+import {BrowserRouter,Switch,Route} from 'react-router-dom';
 
-import Header from './component/header';
-
+import StarupList from './component/startuplist';
+import RegisterStartup from './component/reigterstartp';
 class App extends React.Component 
 {  
-   constructor()
-   {
-     super();
-     this.state={
-       startup:[]
-     }
-   }
-
-   componentDidMount(){
-     fetch('http://localhost:9000/api/v1/getAllStartup')
-     .then(response=>response.json())
-     .then(data=>{
-       console.log(data.data);
-     })
-   }
+   
   render()
   {
     return (
+
+      <BrowserRouter >
       <div className="App">
-        <Header title='Welcome To StartUp World'/>
-        hello
+
+
+        <Switch>
+          
+        <Route path='/create'  component={RegisterStartup} />
+          <Route path='/'  component={StarupList} />
+        
+         
+        </Switch>
       </div>
+      </BrowserRouter>
     );
   }
 }

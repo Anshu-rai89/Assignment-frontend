@@ -1,14 +1,115 @@
+body{
+  background-color: lightgray;
+  border: 2px black solid;margin: 0;
+}
 .header
 {
   height: 60px;
   width:100%;
-  background-color:lightseagreen;
+  background-color:slateblue;
+  border-bottom: 1px black solid ;
+  margin: 0;
 }
 
 .title
 {
-  text-align: center;
+  margin-left: 30%;
+  
   color:white;
   font-size: 20px;
   font-weight: bold;
+  margin-top: 0%;
+}
+
+.startup-list
+{
+  margin-top: 5%;
+  margin-left: 10%;
+
+  height: 100vh;
+}
+
+
+.list
+{
+   
+   font-size: 30px;
+   height: 60px;
+   width:60%;
+
+}
+
+.no
+{
+  font-size:20px;
+  font-weight: 300;
+}
+.info
+{ margin-left: 6%;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.register-form
+{
+ margin-top:6%;
+ height: 90%;
+ width:98%;
+ margin-left: 2%;
+ 
+}
+.form-div
+{
+  margin-top: 6%;
+  height: 100vh;
+  width:50%;
+  margin-left: 10%;
+  
+}
+
+.name
+{
+ 
+  height:40px;
+  width: 100%;
+
+}
+.submit-btn
+{
+  background-color: slateblue;
+  height: 30px;
+  width:150px;
+  border :2px slateblue solid ;
+  margin-left: 38%;
+  margin-top:-3%;
+  color: white;
+  font-weight: bold;
+}
+.submit-btn1
+{
+  background-color: slateblue;
+  height: 40px;
+  width:120px;
+  font-weight: bold;
+  padding: 10px;
+  border :2px slateblue solid ;
+   text-decoration: none;
+  color: white;
+}
+
+
+.input-type
+{
+  margin-left: 30%;
+  border:2px black solid ;
+  height: 20px;
+  width:200px;
+}
+.input-type1
+{
+  margin-left: 28%;
+  border:2px black solid ;
+  height: 20px;
+  width:200px;
 }
